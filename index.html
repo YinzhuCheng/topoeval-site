@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TopoEval: A Dataset for Evaluating LLM Reasoning</title>
+    <meta
+      name="description"
+      content="TopoEval is a dataset for evaluating LLM reasoning, released for research use alongside the accompanying paper."
+    />
+    <style>
+      :root {
+        --text: #111;
+        --muted: #555;
+        --border: #e5e5e5;
+        --link: #0645ad;
+        --bg: #fff;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+          "Noto Sans", "Liberation Sans", sans-serif;
+        line-height: 1.55;
+      }
+
+      .container {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 36px 18px 60px;
+      }
+
+      header {
+        padding-bottom: 14px;
+        border-bottom: 1px solid var(--border);
+        margin-bottom: 22px;
+      }
+
+      h1 {
+        font-size: 28px;
+        font-weight: 650;
+        margin: 0 0 10px 0;
+        letter-spacing: 0.2px;
+      }
+
+      p {
+        margin: 12px 0;
+      }
+
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+      a:hover,
+      a:focus {
+        text-decoration: underline;
+      }
+
+      .download {
+        margin: 18px 0 10px;
+        padding: 14px 16px;
+        border: 1px solid var(--border);
+        background: #fafafa;
+      }
+
+      .download a {
+        font-weight: 600;
+      }
+
+      .note {
+        color: var(--muted);
+        font-size: 14px;
+        margin-top: 18px;
+      }
+
+      footer {
+        margin-top: 34px;
+        padding-top: 14px;
+        border-top: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>TopoEval: A Dataset for Evaluating LLM Reasoning</h1>
+        <p>
+          TopoEval is the dataset used in the accompanying paper. The dataset is
+          publicly available for research purposes.
+        </p>
+      </header>
+
+      <main>
+        <section class="download" aria-label="Dataset download">
+          <p>
+            <a href="data/TopoEval.zip">Download TopoEval Dataset (ZIP)</a>
+          </p>
+          <p class="note">
+            If the download link does not work yet, the archive may still be in
+            the process of being uploaded to this repository.
+          </p>
+        </section>
+
+        <p class="note">
+          This website may be updated in the future with additional
+          documentation, benchmarks, and leaderboards. The current version is a
+          minimal, static page intended for long-term stability and easy
+          hosting.
+        </p>
+      </main>
+
+      <footer>
+        <p>
+          Hosting: static site (Cloudflare Pages compatible). All links on this
+          page use relative paths for portability.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
